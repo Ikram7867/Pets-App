@@ -1,0 +1,41 @@
+.singUp_dropdown button{
+    height: 57px;
+    background-color: #F7F7F7;
+    border-radius: 29px;
+    border: none;
+    padding: 0 4%;
+    margin-bottom: 10px;
+    color: #000;
+    width: 100%;
+    text-align: start;
+}
+.singUp_dropdown button:hover{
+    background-color: #F7F7F7 !important;
+    color: #000 !important;
+}
+.singUp_dropdown .btn-check:active+.btn-secondary, .btn-check:checked+.btn-secondary, .btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle{
+    background-color: #F7F7F7 !important;
+    color: #000 !important;
+}
+.singUp_dropdown .btn-check:focus+.btn-secondary, .btn-secondary:focus{
+    background-color: #F7F7F7 !important;
+    color: #000 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.singUp_dropdown .dropdown-menu.show {
+    width: 100%;
+}
+.singUp_dropdown .dropdown-toggle::after {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.double_input {
+    display: flex;
+    justify-content: space-between;
+}
+.double_input input{
+    flex: 0 0 49%;
+    width: 48%;
+}

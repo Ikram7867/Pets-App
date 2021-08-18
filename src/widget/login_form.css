@@ -1,0 +1,29 @@
+/*--------login_form-----------*/
+.login_form {
+    background-color: #fff;
+    max-width: 841px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sign_in {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+}
+.sign_in input {
+    height: 57px;
+    background-color: #F7F7F7;
+    border-radius: 29px;
+    border: none;
+    padding: 0 4%;
+    margin-bottom: 10px;
+}
+.login_with {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}

@@ -1,0 +1,5 @@
+.login_outer{
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-wrap: wrap;
+}
