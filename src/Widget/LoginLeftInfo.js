@@ -1,5 +1,5 @@
 import React from 'react';
-import './login_left_info.css';
+import './LoginLeftInfo.css';
 
 export default function LoginLeftInfo({image, tittle}) {
     console.log(image)

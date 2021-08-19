@@ -1,10 +1,13 @@
 import React from 'react';
-import "../widget/login_form.css";
+import "../Widget/LoginForm.css";
 import { useHistory } from 'react-router-dom';
-import "./SingUpForm.css";
+import "./SignUpForm.css";
 import { Form ,Button , Dropdown  } from 'react-bootstrap';
-export default function SingUpForm() {
+export default function SignUpForm() {
     const history = useHistory();
+    const moveNext =()=>{
+        history.push('/ContactInfo')
+    }
     const moveBack =()=>{
         history.goBack()
     }
@@ -45,18 +48,12 @@ export default function SingUpForm() {
                         <Form.Control type="email" placeholder="Email or Phone" />
                     </Form.Group>
                 </Form>
-                
                 <div className="login_with">
-                    <Button variant="primary" type="submit" className="login_btn">
+                    <Button variant="primary" type="submit" className="login_btn" onClick={moveNext}>
                         Next
                     </Button>
-                    <Button variant="primary" type="submit" className="login_btn blue_bg">
-                        Cancel
-                    </Button>
-                </div>
-                <div className="login_with">
                     <Button variant="primary" type="submit" className="login_btn blue_bg" onClick={moveBack}>
-                        back to login
+                        Cancel
                     </Button>
                 </div>
             </div>

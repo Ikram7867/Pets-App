@@ -30,7 +30,7 @@
 }
 .info_img::after{
     content: "";
-    background-image: url(../images/large_cric.png);
+    background-image: url("../assets/images/large_cric.png");
     position: absolute;
     left: 50px;
     top: -130px;
@@ -41,7 +41,7 @@
 }
 .info_img::before{
     content: "";
-    background-image: url(../images/medium_cric.png);
+    background-image: url("../assets/images/medium_cric.png");
     position: absolute;
     right: 10px;
     bottom: 50px;

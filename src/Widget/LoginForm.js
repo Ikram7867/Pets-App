@@ -1,11 +1,11 @@
 import React from 'react';
-import './login_form.css';
+import './LoginForm.css';
 import { useHistory } from 'react-router-dom';
 import { Form ,Button } from 'react-bootstrap'
 export default function  LoginForm() {
     const history=useHistory();
     const moveNext =()=> {
-        history.push('/singUp')
+        history.push('/signUp')
     }
     return (
         <div className="login_form">

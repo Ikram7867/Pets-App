@@ -1,13 +1,12 @@
-import "./login.css";
-import LoginLeftInfo from '../widget/login_left_info';
-import LoginForm from '../widget/login_form';
-import Dog from "../images/Image28.png";
+import "./Login.css";
+import LoginLeftInfo from '../Widget/LoginLeftInfo';
+import LoginForm from '../Widget/LoginForm';
 function Login() {
   return (
     <div className="main_outer">
       <div className="custom_container">
         <div className="login_outer">
-          <LoginLeftInfo image={Dog} tittle="Welcome To Petstore"/>
+          <LoginLeftInfo image='/images/Image28.png' tittle="Welcome To Petstore"/>
           <LoginForm/>
         </div>
       </div>
